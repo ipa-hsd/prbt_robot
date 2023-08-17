@@ -7,10 +7,10 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(canopen REQUIRED)
-find_package(lely_core_libraries REQUIRED)
+# find_package(canopen REQUIRED)
+# find_package(lely_core_libraries REQUIRED)
 
-cogen_dcf(prbt)
+# cogen_dcf(prbt)
 # generate_dcf(prbt)
 
 # install launch file
