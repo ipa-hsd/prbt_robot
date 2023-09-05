@@ -4,13 +4,6 @@
 <!-- |    EDITING THIS FILE BY HAND IS NOT RECOMMENDED                                 | -->
 <!-- =================================================================================== -->
 <robot name="prbt">
-  <!-- instantiate the robot -->
-  <link name="world"/>
-  <joint name="base_link_world_joint" type="fixed">
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-    <parent link="world"/>
-    <child link="base_link"/>
-  </joint>
   <!-- robot foot link -->
   <link name="base_link">
     <inertial>
